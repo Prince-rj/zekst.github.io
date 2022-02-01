@@ -13,7 +13,7 @@
 h1.title{
 	margin-bottom: 20px;
 	color: #444444;
-	font-family: 'Allura', cursive;
+	font-family: 'Allura', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	text-transform: uppercase;
 	font-size: 38px;
 	word-spacing: 25px;
@@ -53,13 +53,14 @@ p{
 }
 
 .logo a{
-	font-family: 'Allura', cursive;
+	font-family: 'Allura', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 32px;
 	color: #fb2274;
 }
 
 .navbar_items ul{
 	display: flex;
+	font: bolder;
 }
 
 .navbar_items ul li{
@@ -67,7 +68,7 @@ p{
 }
 
 .navbar_items ul li a{
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: #fff;
 }
 
@@ -88,7 +89,7 @@ p{
 }
 
 .banner_content h1{
-	text-transform: uppercase;
+	text-transform: lowercase;
 	line-height: 38px;
 	margin-bottom: 15px;
 }
@@ -105,11 +106,16 @@ p{
 .ourteam{
 	text-align: center;
 	padding: 5% 10%;
+	font: rgb(241, 236, 236);
+	font-style: normal;
+	font-size: 20px;
+	background-image:(url('images/img1.jpg'));
+	background-color: rgb(17, 5, 5);
 }
 
 /* Services */
 .services{
-	background: #f5f5f5;
+	background: #2b1c1c;
 }
 
 .diff_services {
@@ -128,7 +134,7 @@ p{
 }
 
 .diff_services .diff_services_item h3 {
-    color: #fb2274;
+    color: #a57c3a;
     margin-bottom: 15px;
 }
 
@@ -197,7 +203,7 @@ p{
 }
 
 .footer a{
-	color: #fff;
+	color: rgb(15, 15, 15);
 }
 
 
