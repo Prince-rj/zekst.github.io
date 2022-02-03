@@ -46,6 +46,7 @@ p{
 .navbar{
 	width: 100%;
 	height: 65px;
+	background-color: #000;
 	position: absolute;
 	display: flex;
 	justify-content: space-around;
@@ -110,7 +111,7 @@ p{
 	font-style: normal;
 	font-size: 20px;
 	background-image:(url('images/img1.jpg'));
-	background-color: rgb(17, 5, 5);
+	background-color: rgb(44, 29, 29);
 }
 
 /* Services */
