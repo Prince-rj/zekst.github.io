@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 *{
 	margin: 0;
@@ -7,7 +7,7 @@
 	outline: none;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 h1.title{
@@ -117,10 +117,11 @@ p{
 /* Services */
 .services{
 	background: #2b1c1c;
+
 }
 
 .diff_services {
-    margin-top: 35px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
