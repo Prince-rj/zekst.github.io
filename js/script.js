@@ -7,12 +7,32 @@ let slideii=document.querySelector("#hii")
 let slidei=document.querySelector("#hi")
 let viewbook1=document.querySelector('#onclick1')
 
-slide1.addEventListener('click',()=>{
-    viewbook1.style.display='block';
+
+
+let div=document.createElement('div');
+let createDescription=()=>{
+    // console.log('clicked')
+    div.classList.add('description')
+    viewbook1.append(div)
+}
+let removedescription=()=>{
+    div=null;
+    
+}
+flag=true;
+div.addEventListener('click',()=>{
+    flag=false;
 })
 viewbook1.addEventListener('click',()=>{
-    viewbook1.style.display='none'
-    // viewbook1.style.zIndex='-1'
+    if(flag){
+        document.body.style.overflow='scroll'
+        viewbook1.style.display='none'
+        removedescription()
+        // viewbook1.style.zIndex='-1'
+    }
+    else{
+        flag=true;
+    }
 })
 var slides=[];
 var slidin=[];
@@ -20,10 +40,17 @@ slides[0]=slide1;
 slides[1]=slide2;
 slides[2]=slide3;
 
-
 slidin[0]=slidei;
 slidin[1]=slideii;
 slidin[2]=slideiii;
+slides.forEach(slide => {
+    slide.addEventListener('click',()=>{
+        viewbook1.style.display='block';
+        document.body.style.overflow='hidden'
+        createDescription()
+    })
+});
+
 
 
 // for(let i=0;i>0;i++){
