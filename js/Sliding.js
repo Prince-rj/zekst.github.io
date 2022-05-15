@@ -5,12 +5,12 @@ let mouseenter=false;
 
 hovering.addEventListener('mouseover',()=>{
         mouseenter=true;
-        console.log(mouseenter)
+        // console.log(mouseenter)
    
 })
 hovering.addEventListener('mouseout',()=>{
      mouseenter=false;
-    console.log(mouseenter)
+    // console.log(mouseenter)
 })
 
 let i=1;
